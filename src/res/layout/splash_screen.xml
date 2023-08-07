@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/ic_logo.png" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

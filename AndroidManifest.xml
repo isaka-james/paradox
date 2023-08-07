@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.pacompany.paradox" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="25" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:theme="resourceId:0x7f050000" android:label="Paradox" android:icon="res/drawable-xhdpi-v4/ic_launcher.png" android:allowBackup="true">
+		<activity android:name="com.pacompany.paradox.SplashActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.pacompany.paradox.MainActivity" />
+	</application>
+</manifest>
