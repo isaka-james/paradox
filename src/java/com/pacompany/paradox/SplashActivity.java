@@ -28,15 +28,11 @@ extends Activity {
         super.onCreate(bundle);
         this.setContentView(2130903041);
         this.handler = new Handler();
-        this.handler.postDelayed(new Runnable(){
-
-            public void run() {
-                Intent intent = new Intent((Context)SplashActivity.this, MainActivity.class);
-                SplashActivity.this.startActivity(intent);
-                SplashActivity.this.finish();
-            }
+        this.handler.postDelayed(() -> {
+            Intent intent = new Intent((Context)SplashActivity.this, MainActivity.class);
+            SplashActivity.this.startActivity(intent);
+            SplashActivity.this.finish();
         }, 3000L);
     }
 
 }
-
